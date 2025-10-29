@@ -43,46 +43,46 @@
 
         MAIN_layer {
             bindings = <
-              &kp W  &kp F  &kp P  &kp G           &kp J      &kp L  &kp U      &kp Y
-&kp Q  &kp A  &kp R  &kp S  &kp T  &kp D           &kp H      &kp N  &kp E      &kp I       &kp O      &kp SQT
-       &kp Z  &kp X  &kp C  &kp V  &kp B           &kp K      &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-                            &mo 2  &kp LEFT_SHIFT  &kp SPACE  &mo 1
+                         &kp W        &kp F           &kp P           &kp G           &kp J      &kp L           &kp U           &kp Y
+&kp Q  &mt LEFT_SHIFT A  &mt LCTRL R  &mt LEFT_ALT S  &mt LEFT_GUI T  &kp D           &kp H      &mt LEFT_GUI N  &mt LEFT_ALT E  &mt LEFT_CONTROL I  &mt LEFT_SHIFT O  &kp SQT
+       &kp Z             &kp X        &kp C           &kp V           &kp B           &kp K      &kp M           &kp COMMA       &kp PERIOD          &kp SLASH
+                                                      &mo 2           &kp LEFT_SHIFT  &kp SPACE  &mo 1
             >;
         };
 
         SYM_layer {
             bindings = <
-                          &kp AT            &kp HASH       &kp DOLLAR    &kp PERCENT  &kp EQUAL  &kp GRAVE              &kp COLON        &kp SEMICOLON
-&kp EXCL  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT   &sk LEFT_GUI  &kp CARET    &kp STAR   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp MINUS  &kp PLUS
-          &none           &none             &kp BACKSLASH  &kp PIPE      &kp AMPS     &kp TILDE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDER
-                                                           &none         &none        &trans     &trans
+                  &kp AT  &kp HASH       &kp DOLLAR  &kp PERCENT  &kp EQUAL  &kp GRAVE              &kp COLON        &kp SEMICOLON
+&kp EXCL  &trans  &trans  &trans         &trans      &kp CARET    &kp STAR   &kp LEFT_PARENTHESIS   &kp LEFT_BRACE   &kp LEFT_BRACKET   &kp MINUS  &kp PLUS
+          &none   &none   &kp BACKSLASH  &kp PIPE    &kp AMPS     &kp TILDE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp UNDER
+                                         &none       &none        &trans     &trans
             >;
         };
 
         EXT_layer {
             bindings = <
-                         &kp K_BACK        &kp K_FIND    &kp K_FORWARD  &kp INS  &kp PAGE_UP    &kp HOME       &kp UP    &kp END
-&kp ESC  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_GUI   &none    &kp PAGE_DOWN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp DELETE  &kp CAPS
-         &kp K_UNDO      &kp K_CUT         &kp K_COPY    &kp K_PASTE    &none    &kp ENTER      &kp BACKSPACE  &kp TAB   &none      &none
-                                                         &trans         &trans   &kp ENTER      &none
+                     &kp K_BACK  &kp K_FIND  &kp K_FORWARD  &kp INS  &kp PAGE_UP    &kp HOME       &kp UP    &kp END
+&kp ESC  &trans      &trans      &trans      &trans         &none    &kp PAGE_DOWN  &kp LEFT       &kp DOWN  &kp RIGHT  &kp DELETE  &kp CAPS
+         &kp K_UNDO  &kp K_CUT   &kp K_COPY  &kp K_PASTE    &none    &kp ENTER      &kp BACKSPACE  &kp TAB   &none      &none
+                                             &trans         &trans   &kp ENTER      &none
             >;
         };
 
         FN_layer {
             bindings = <
-                            &kp C_PREVIOUS     &kp C_PLAY       &kp C_NEXT    &kp C_BRIGHTNESS_INC  &kp F12    &kp F7  &kp F8  &kp F9
-&kp C_STOP  &sk LEFT_SHIFT  &sk LEFT_CONTROL   &sk LEFT_ALT     &sk LEFT_GUI  &kp C_BRIGHTNESS_DEC  &kp F11    &kp F4  &kp F5  &kp F6  &none  &none
-            &kp C_MUTE      &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none         &none                 &kp F10    &kp F1  &kp F2  &kp F3  &none
-                                                                &trans        &none                 &kp ENTER  &trans
+                        &kp C_PREVIOUS     &kp C_PLAY       &kp C_NEXT  &kp C_BRIGHTNESS_INC  &kp F12    &kp F7  &kp F8  &kp F9
+&kp C_STOP  &trans      &trans             &trans           &trans      &kp C_BRIGHTNESS_DEC  &kp F11    &kp F4  &kp F5  &kp F6  &none  &none
+            &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &none       &none                 &kp F10    &kp F1  &kp F2  &kp F3  &none
+                                                            &trans      &none                 &kp ENTER  &trans
             >;
         };
 
         NUM_layer {
             bindings = <
-                        &trans            &trans        &trans        &trans   &kp EQUAL  &kp N7  &kp N8  &kp N9
-&trans  &sk LEFT_SHIFT  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_GUI  &trans   &kp ASTRK  &kp N4  &kp N5  &kp N6  &kp MINUS  &kp PLUS
-        &trans          &trans            &kp TAB       &kp BSPC      &kp RET  &kp N0     &kp N1  &kp N2  &kp N3  &kp FSLH
-                                                        &trans        &trans   &trans     &trans
+                &trans  &trans   &trans    &trans   &kp EQUAL  &kp N7  &kp N8  &kp N9
+&trans  &trans  &trans  &trans   &trans    &trans   &kp ASTRK  &kp N4  &kp N5  &kp N6  &kp MINUS  &kp PLUS
+        &trans  &trans  &kp TAB  &kp BSPC  &kp RET  &kp N0     &kp N1  &kp N2  &kp N3  &kp FSLH
+                                 &trans    &trans   &trans     &trans
             >;
         };
 
@@ -96,4 +96,3 @@
         };
     };
 };
-
